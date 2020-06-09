@@ -18,7 +18,7 @@ def mask_image():
     img = Image.open(file1)
     image = to_tensor(img)
     
-    array = image.cpu().numpy()
+    array = image.detach().numpy()
 
     return send_file(io.BytesIO(array), mimetype="image/png", as_attachment=True, attachment_filename="aa.png")
 
