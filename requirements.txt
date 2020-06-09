@@ -1,7 +1,7 @@
 Flask==1.1.1
 gunicorn==19.9.0
 torchvision==0.2.2
-https://download.pytorch.org/whl/cpu/torch-1.1.0-cp37-cp37m-linux_x86_64.whl
+-f https://download.pytorch.org/whl/nightly/cpu/torch_nightly.html
 itsdangerous==1.1.0
 Jinja2==2.10.1
 MarkupSafe==1.1.1
