@@ -1,5 +1,7 @@
 Flask==1.1.1
 gunicorn==19.9.0
+https://download.pytorch.org/whl/cpu/torch-1.0.0-cp37-cp37m-linux_x86_64.whl
+torchvision==0.2.1
 itsdangerous==1.1.0
 Jinja2==2.10.1
 MarkupSafe==1.1.1
@@ -11,5 +13,4 @@ matplotlib>=1.4.3
 pandas>=0.19
 gevent
 pillow
--f http://download.pytorch.org/whl/cpu/torch-0.3.1-cp36-cp36m-linux_x86_64.whl
-torchvision==0.2.1
+
