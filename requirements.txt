@@ -3,7 +3,7 @@ gunicorn==19.9.0
 torchvision==0.2.2
 -f https://download.pytorch.org/whl/nightly/cpu/torch_nightly.html
 itsdangerous==1.1.0
-Jinja2==2.10.1
+Jinja2==2.11.3
 MarkupSafe==1.1.1
 Werkzeug==0.15.5
 numpy>=1.9.2
